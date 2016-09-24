@@ -1,0 +1,23 @@
+{
+    "name": "galek/smtp-mailer",
+    "description": "Extending Mailer for Nette framework.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+	  "name": "Jan Galek",
+	  "email": "admin@gcore.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+	  "Galek\\SmtpMailer\\": "src/Galek/SmtpMailer/"
+        }
+    },
+    "require": {
+        "nette/utils": "^2.3",
+		"nette/mail": "^2.4"
+    },
+    "require-dev": {
+        "nette/tester": "^1.7"
+    }
+}
